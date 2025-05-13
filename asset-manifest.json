@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/narrative-emotion-analyzer-libs/static/css/main.bbf7cb84.css",
+    "main.css": "/narrative-emotion-analyzer-libs/static/css/main.afa2e54e.css",
     "main.js": "/narrative-emotion-analyzer-libs/static/js/main.981530b7.js",
     "static/js/453.0a32210f.chunk.js": "/narrative-emotion-analyzer-libs/static/js/453.0a32210f.chunk.js",
     "index.html": "/narrative-emotion-analyzer-libs/index.html",
-    "main.bbf7cb84.css.map": "/narrative-emotion-analyzer-libs/static/css/main.bbf7cb84.css.map",
+    "main.afa2e54e.css.map": "/narrative-emotion-analyzer-libs/static/css/main.afa2e54e.css.map",
     "main.981530b7.js.map": "/narrative-emotion-analyzer-libs/static/js/main.981530b7.js.map",
     "453.0a32210f.chunk.js.map": "/narrative-emotion-analyzer-libs/static/js/453.0a32210f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbf7cb84.css",
+    "static/css/main.afa2e54e.css",
     "static/js/main.981530b7.js"
   ]
 }
