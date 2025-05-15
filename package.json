@@ -1,0 +1,24 @@
+{
+  "name": "narrative-emotion-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && python main.py",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "pip install -r backend/requirements.txt",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "deploy:frontend": "cd frontend && npm run deploy",
+    "deploy:backend": "echo \"Run heroku deployment commands here\"",
+    "deploy": "npm run deploy:frontend && npm run deploy:backend"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
